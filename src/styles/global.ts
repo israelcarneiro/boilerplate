@@ -2,8 +2,8 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
   * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
   }
 
@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 62.5%;
   }
 
-  html, body, #___next {
+  html, body, #__next {
     height: 100%;
   }
 
